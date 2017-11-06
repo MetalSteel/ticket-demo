@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+
+</head>
+<body>
+    <form method="post" th:action="@{/post}">
+        标题： <input name="title"/><br>
+        数量： <input name="num"/><br>
+        昵称： <input name="nickname"/><br>
+        电影院： <input name="cinema"/><br>
+        电影： <input name="movie"/><br>
+        日期： <input name="date"/><br>
+        <input type="submit" th:value="提交表单"/>
+    </form>
+</body>
+</html>
